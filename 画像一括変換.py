@@ -38,5 +38,5 @@ if extension in formats:
          print('{}枚変換しました'.format(x))
 
 else:
- print('拡張子が対応していません')
+ print('対応していない拡張子です')
         
