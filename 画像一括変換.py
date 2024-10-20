@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # 対応する拡張子
-formats = ['.jpeg', '.png', '.bmp', '.gif', '.webp']
+formats = ['.JPG', '.jpg', '.jpeg', '.png', '.bmp', '.gif', '.webp']
 formats_string = ' '.join(formats)
 print('\n\n対応する拡張子 {}\n\n'.format(formats_string.replace('.','')))
 convf = input('出力形式を入力してください(例 jpeg, png): ').upper()
