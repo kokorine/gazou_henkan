@@ -16,6 +16,7 @@ output_folder = outputf
 
 # 拡張子を作成
 extension = '.' + convf.lower()
+#変換枚数カウント
 x = 0
 
 if extension in formats:
