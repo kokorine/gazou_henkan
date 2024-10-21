@@ -4,8 +4,8 @@ import os
 # 対応する拡張子
 formats = ['.JPG', '.jpg', '.jpeg', '.png', '.bmp', '.gif', '.webp']
 formats_string = ' '.join(formats)
-print('\n\n対応する拡張子 {}\n\n'.format(formats_string.replace('.','')))
-convf = input('出力形式を入力してください(例 jpeg, png): ').upper()
+#print('\n\n対応する拡張子 {}\n\n'.format(formats_string.replace('.','')))
+convf = input('\n\n出力形式を入力してください(例 jpeg, png): ').upper()
 inputf = input('入力フォルダを指定してください: ') 
 outputf = input('出力フォルダを指定してください: ')
 
