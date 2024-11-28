@@ -16,7 +16,7 @@ output_folder = outputf
 # 拡張子を作成
 extension = '.' + convf.lower()
 #変換枚数カウント
-x = 0
+count_pic = 0
 
 if extension in formats:
  
@@ -33,8 +33,8 @@ if extension in formats:
          new_filename = os.path.splitext(filename)[0] + extension
          #画像を保存
          image.save(os.path.join(output_folder, new_filename), convf)
-         x = x + 1
-         print('{}枚変換しました'.format(x))
+         count_pic = count_pic + 1
+         print('{}枚変換しました'.format(count_pic))
 
 else:
  print('対応していない拡張子です')
